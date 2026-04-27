@@ -23,3 +23,6 @@ Voor dit project zijn specifieke designkeuzes gemaakt om de leesbaarheid en de g
 * **Navigatie:** Elke pagina bevat een duidelijke "Terug naar overzicht"-knop. Dit zorgt voor een duidelijke 'user flow' en voorkomt dat een gebruiker vastloopt op een subpagina.
 * **Associatie-blokjes:** Onderaan elk artikel zijn gerelateerde links toegevoegd (deze zijn nu niet aanklikbaar maar zou wel moeten als het werkelijk gebruikt moest worden). Dit verhoogt de kans dat mensen langer op de site blijven en simuleert daarnaast ook de werking van een echt nieuwsplatform.
 * **Consistentie:** De footer met juridische informatie is op elke pagina identiek, wat zorgt voor een gevoel van betrouwbaarheid en een professionele afsluiting van de gebruikerservaring.
+
+---
+*Gemaakt door Lily Vervoort*
