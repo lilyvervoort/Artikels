@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX/UI Portfolio | De Standaard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    <style>
+        /* HIER STAAT DE CSS DIRECT IN HET BESTAND */
+        :root {
+            --bg: #f4f7f9;
+            --white: #ffffff;
+            --primary: #101828;
+            --accent: #e63946;
+            --text-muted: #667085;
+            --shadow: 0 12px 24px rgba(0,0,0,0.06);
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--primary);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+        header {
+            text-align: center;
+            padding: 80px 0 40px;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin: 0;
+        }
+
+        header p { color: var(--text-muted); font-size: 1.1rem; margin-top: 10px; }
+
+        /* Het Grid met de Kaarten */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+            margin-bottom: 100px;
+        }
+
+        .card {
+            background: var(--white);
+            border-radius: 20px;
+            text-decoration: none;
+            color: inherit;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+
+        .card-img {
+            width: 100%;
+            height: 220px;
+            background-color: #ddd; /* Als je foto niet laadt */
+            object-fit: cover;
+        }
+
+        .card-content { padding: 30px; }
+
+        .card-tag {
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--accent);
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .card h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            line-height: 1.3;
+            margin: 0 0 15px 0;
+        }
+
+        .card p { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 20px; }
+
+        .card-link { font-weight: 600; color: var(--primary); font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Artikel <span>Analyse</span></h1>
+            <p>Drie artikelen herontworpen voor een optimale leeservaring.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="grid">
+            <a href="artikel1.html" class="card">
+                <img src="ai-kat.png" class="card-img" alt="AI Slop">
+                <div class="card-content">
+                    <span class="card-tag">De Technocraat</span>
+                    <h2>Leidt AI-slop tot de dood van sociale media?</h2>
+                    <p>Over de vloedgolf aan AI-video's op onze feeds.</p>
+                    <span class="card-link">Lees artikel →</span>
+                </div>
+            </a>
+
+            <a href="artikel2.html" class="card">
+                <img src="vibecoding.png" class="card-img" alt="Vibecoding">
+                <div class="card-content">
+                    <span class="card-tag">De Helpdesk</span>
+                    <h2>Vibecoding: je eigen apps maken met AI</h2>
+                    <p>Hoe je zonder code zelf games en websites bouwt.</p>
+                    <span class="card-link">Lees artikel →</span>
+                </div>
+            </a>
+
+            <a href="artikel3.html" class="card">
+                <img src="dario.png" class="card-img" alt="Dario Amodei">
+                <div class="card-content">
+                    <span class="card-tag">De Technocraat</span>
+                    <h2>Het "Spartacus!"-moment van Silicon Valley</h2>
+                    <p>Ethisch verzet tegen de politieke druk op AI.</p>
+                    <span class="card-link">Lees artikel →</span>
+                </div>
+            </a>
+        </div>
+    </main>
+<footer style="background-color: #f1f5f9; padding: 40px 0; margin-top: 80px; text-align: center; border-top: 1px solid #e2e8f0; font-family: 'Inter', sans-serif;">
+    <div style="color: #475569; font-size: 1.1rem; margin-bottom: 15px;">
+        © 2026 De Technocraat / Mediahuis. All rights reserved.
+    </div>
+    <div style="display: flex; justify-content: center; gap: 25px;">
+        <a href="#" style="color: #1e293b; text-decoration: underline; font-weight: 500; font-size: 1rem;">Terms of Agreement</a>
+        <a href="#" style="color: #1e293b; text-decoration: underline; font-weight: 500; font-size: 1rem;">Copyright Regulations</a>
+        <a href="#" style="color: #1e293b; text-decoration: underline; font-weight: 500; font-size: 1rem;">Cookie Settings</a>
+    </div>
+</footer>
+</body>
+</html>
