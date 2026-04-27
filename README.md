@@ -1,6 +1,6 @@
 # 📰 Artikel analyse
 
-Welkom bij mijn analyse! Ik heb drie artikelen geanalyseerd en opnieuw verwerkt in een HTML.
+Welkom bij mijn analyse! Ik heb drie artikels geanalyseerd en opnieuw verwerkt in een HTML.
 
 ### 🔗 Directe links naar de artikels:
 * [**Hoofdpagina** ](https://lilyvervoort.github.io/Artikels/index.html)
